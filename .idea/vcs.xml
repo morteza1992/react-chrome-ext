@@ -2,13 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/installment-simcard" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pwa-v1/setareyek-pwa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/rondtarin/rondtarin-test-lit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/setare-aval-website" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/setareyek-pwa-v2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/setareyek-website" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/setareyek-website-v2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ts-dashboard" vcs="Git" />
   </component>
 </project>
