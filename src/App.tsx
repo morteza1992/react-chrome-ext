@@ -1,15 +1,18 @@
-import {useEffect, useState} from 'react'
-import './App.css'
+import "./App.css";
+import DefaultView from "./components/default-view/DefaultView";
+import Microphone from "./components/live-transcription/Microphone";
+import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-
-
+  const [mode, setMode] = useState("default");
   return (
     <div>
-      {count}
+      {mode === "default" && (
+        <DefaultView onClick={() => setMode("microphone")} />
+      )}
+      {mode === "microphone" && <Microphone />}
     </div>
-  )
+  );
 }
-export default App
+
+export default App;

@@ -1,1 +1,12 @@
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body,
+html {
+  width: 455px;
+  font-family: AvertaStd, sans-serif;
+    background-color: #f5f8fa;
+}

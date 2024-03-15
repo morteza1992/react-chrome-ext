@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64631565-fe46-4442-b312-95d9d9b37440" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/defult-view/DefaultView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/index.js" afterDir="false" />
+    <list default="true" id="64631565-fe46-4442-b312-95d9d9b37440" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/google-meet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/zoom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/default-view/DefaultView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/default-view/defaulViw.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/live-transcription/Microphone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/live-transcription/TranscriptField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/audio/resample-to-16khz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/audio/transcribe-microphone-audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +47,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/SetareAval/WebstormProjects/react-chrome-ext",
+    "last_opened_file_path": "C:/Users/SetareAval/WebstormProjects/react-chrome-ext/src/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\SetareAval\\WebstormProjects\\react-chrome-ext\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "C:\\Users\\SetareAval\\WebstormProjects\\react-chrome-ext\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SetareAval\WebstormProjects\react-chrome-ext\src\components" />
+      <recent name="C:\Users\SetareAval\WebstormProjects\react-chrome-ext\src\utils" />
       <recent name="C:\Users\SetareAval\WebstormProjects\react-chrome-ext\src\assets\logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SetareAval\WebstormProjects\react-chrome-ext\src\components\live-transcription" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +80,7 @@
       <workItem from="1710187335955" duration="765000" />
       <workItem from="1710499929492" duration="3577000" />
       <workItem from="1710504154350" duration="278000" />
+      <workItem from="1710505619586" duration="4773000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1710187502835</created>
@@ -69,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710187502835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1710505635287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710505635287</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes">
+      <created>1710505646795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710505646795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +113,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
