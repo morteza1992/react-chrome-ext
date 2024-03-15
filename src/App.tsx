@@ -1,10 +1,15 @@
-import "./App.css"
-function App() {
-  return (
-    <div className="App">
-      talkscriber
-    </div>
-  );
-}
+import {useEffect, useState} from 'react'
+import './App.css'
 
-export default App;
+function App() {
+  const [count, setCount] = useState(0)
+
+
+
+  return (
+    <div>
+      {count}
+    </div>
+  )
+}
+export default App
